@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-        <remote  name="salik"
-                fetch="https://github.com/P-Salik" />
+        <remote  name="idk"
+                fetch="https://github.com/IdkAnythin07" />
 	<remote name="agrezia"
 		fetch="https://github.com/Fraschze97" />
 	<remote name="sakthivel"
