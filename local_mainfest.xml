@@ -11,7 +11,7 @@
 		fetch="https://github.com/cArN4gEisDeD" />
 
         <!-- Device Sauce -->
-	<project path="device/realme/RMX1941" name="android_device_realme_RMX1941" remote="salik" revision="eleven" clone-depth="1" />
+	<project path="device/realme/RMX1941" name="android_device_realme_RMX1941" remote="idk" revision="eleven" clone-depth="1" />
 	<project path="vendor/realme/RMX1941" name="android_vendor_realme_RMX1941" remote="sakthivel" revision="eleven" clone-depth="1" />
 
 </manifest>
