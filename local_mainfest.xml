@@ -27,7 +27,7 @@
 
 
 	<!-- Sepolicy -->
-	<project path="device/mediatek/sepolicy_vndr" name="ArrowOS/android_device_mediatek_sepolicy_vndr" remote="github" revision="arrow-13.0" clone-depth="1" />
+	<project path="device/mediatek/sepolicy_vndr" name="ArrowOS/android_device_mediatek_sepolicy_vndr" remote="github" revision="arrow-13.1" clone-depth="1" />
 
 
 	<!-- Clang -->
@@ -60,8 +60,8 @@
 	<project path="frameworks/av" name="CrDroid-android_frameworks_av" remote="idk" revision="13.0" clone-depth="1" />
 	<project path="frameworks/opt/net/ims" name="CrDroid-android_frameworks_opt_net_ims" remote="idk" revision="13.0" clone-depth="1" />
 	<project path="frameworks/opt/telephony" name="CrDroid-android_frameworks_opt_telephony" remote="idk" revision="13.0" clone-depth="1" />
-	<project path="packages/modules/Wifi" name="CrDroid-android_modules_wifi" remote="idk" revision="13.0" clone-depth="1" />
-	<project path="packages/modules/Bluetooth" name="lineage-android_packages_modules_Bluetooth" remote="idk" revision="13.0" clone-depth="1" />
+	<project path="packages/modules/Wifi" name="CrDroid-android_packages_modules_Wifi" remote="idk" revision="13.0" clone-depth="1" />
+	<project path="packages/modules/Bluetooth" name="lineage-android_packages_modules_Bluetooth" remote="idk" revision="lineage-20.0" clone-depth="1" />
 
 
 </manifest>
