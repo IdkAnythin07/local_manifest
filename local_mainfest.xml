@@ -54,14 +54,14 @@
 	<remove-project name="crdroidandroid/android_frameworks_opt_net_ims" />
 	<remove-project name="crdroidandroid/android_frameworks_opt_telephony" />
 	<remove-project name="crdroidandroid/android_packages_modules_Wifi" />
-	<remove-project name="crdroidandroid/android_packages_modules_Bluetooth" />
+	<remove-project name="LineageOS/android_packages_modules_Bluetooth" />
 
 	<project path="frameworks/base" name="CrDroid-android_frameworks_base" remote="idk" revision="13.0" clone-depth="1" />
 	<project path="frameworks/av" name="CrDroid-android_frameworks_av" remote="idk" revision="13.0" clone-depth="1" />
 	<project path="frameworks/opt/net/ims" name="CrDroid-android_frameworks_opt_net_ims" remote="idk" revision="13.0" clone-depth="1" />
 	<project path="frameworks/opt/telephony" name="CrDroid-android_frameworks_opt_telephony" remote="idk" revision="13.0" clone-depth="1" />
 	<project path="packages/modules/Wifi" name="CrDroid-android_modules_wifi" remote="idk" revision="13.0" clone-depth="1" />
-	<project path="packages/modules/Bluetooth" name="CrDroid-android_packages_modules_Bluetooth" remote="idk" revision="13.0" clone-depth="1" />
+	<project path="packages/modules/Bluetooth" name="lineage-android_packages_modules_Bluetooth" remote="idk" revision="13.0" clone-depth="1" />
 
 
 </manifest>
