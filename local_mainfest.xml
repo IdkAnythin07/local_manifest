@@ -26,8 +26,6 @@
 	<project path="vendor/realme/RMX1941-ims" name="vendor_realme_RMX2020-ims" remote="idk" revision="thirteen-rmui1" clone-depth="1" />
 
 
-	<!-- Sepolicy -->
-	<project path="device/mediatek/sepolicy_vndr" name="ArrowOS/android_device_mediatek_sepolicy_vndr" remote="github" revision="arrow-13.1" clone-depth="1" />
 
 
 	<!-- Clang -->
