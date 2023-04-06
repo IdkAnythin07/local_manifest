@@ -37,7 +37,10 @@
 	<!-- GCC -->
 	<project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnu-7.5" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-gnu-7.5" remote="idk" revision="master" clone-depth="1" />
 
-
+	<!-- Prebult Aperture Camera -->
+	<remove-project name="platform/packages/apps/Camera2" />
+	<project path="packages/apps/Aperture" name="android_packages_apps_Aperture" remote="https://github.com/LineageOS" revision="lineage-20.0" clone-depth="1" />
+	
 	<!-- Patches (Boot) -->
 	<remove-project name="platform/system/bpf" />
 	<remove-project name="android_system_core" />
