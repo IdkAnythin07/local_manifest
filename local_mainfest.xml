@@ -17,8 +17,8 @@
 
 
 	<!-- Device Sauce -->
-    <project path="device/realme/RMX1941" name="android_device_realme_RMX1941" remote="idk" revision="octavi" clone-depth="1" />
-    <project path="vendor/realme/RMX1941" name="android_vendor_realme_RMX1941" remote="idk" revision="tiramsu" clone-depth="1" />
+    	<project path="device/realme/RMX1941" name="android_device_realme_RMX1941" remote="idk" revision="octavi" clone-depth="1" />
+    	<project path="vendor/realme/RMX1941" name="android_vendor_realme_RMX1941" remote="idk" revision="tiramsu" clone-depth="1" />
 	<project path="kernel/realme/RMX1941" name="android_kernel_realme_RMX1941" remote="idk" revision="Q-rebase" clone-depth="1" />
 
 
@@ -48,6 +48,9 @@
 	<project path="system/bpf" name="aosp-system_bpf" remote="idk" revision="android-13.0.0_r35" clone-depth="1" />
 	<project path="system/core" name="octavi-android_system_core" remote="idkalt" revision="thirteen" clone-depth="1" />
 
+	<!-- Add 4G+ toggle -->
+	<remove-project name="android_packages_apps_Settings" />
+	<project path="packages/apps/Settings" name="superior-android_packages_apps_Settings" remote="idk" revision="thirteen" clone-depth="1" />
 
 	<!-- Patches (IMS, BT) -->
 	<remove-project name="android_frameworks_base" />
