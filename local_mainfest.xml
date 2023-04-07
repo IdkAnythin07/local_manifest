@@ -1,63 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-	<!-- Remotes -->
-    	<remote name="idk"
-			fetch="https://github.com/IdkAnythin07" />
+        <remote  name="salik"
+                fetch="https://github.com/P-Salik" />
+	<remote name="agrezia"
+		fetch="https://github.com/Fraschze97" />
+	<remote name="sakthivel"
+		fetch="https://github.com/SparXFusion" />
+	<remote name="carnage"
+		fetch="https://github.com/cArN4gEisDeD" />
 
-		<remote name="idkalt"
-			fetch="https://github.com/IdkAnythin07-Alt" />
-
-		<remote name="salikalt"
-			fetch="https://github.com/P-SalikAlt" />
-
-		<remote name="clamg"
-			fetch="https://gitlab.com/ImSurajxD" />
-
-	<!-- Device Sauce -->
-    	<project path="device/realme/RMX1941" name="android_device_realme_RMX1941" remote="idk" revision="arrow-13.1" clone-depth="1" />
-    	<project path="vendor/realme/RMX1941" name="android_vendor_realme_RMX1941" remote="idk" revision="tiramsu" clone-depth="1" />
-		<project path="kernel/realme/RMX1941" name="android_kernel_realme_RMX1941" remote="idk" revision="Q-rebase" clone-depth="1" />
-
-	<!-- IMS -->
-		<project path="vendor/realme/RMX1941-ims" name="vendor_realme_RMX2020-ims" remote="idk" revision="arrow-13.1-rmui1" clone-depth="1" />
-	
-	<!-- Clang -->
-		<project path="prebuilts/clang/host/linux-x86/clang-r353983c" name="android_prebuilts_clang_host_linux-x86_clang-5484270" remote="idk" revision="9.0.3" clone-depth="1" />
-		<project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clamg" revision="master" clone-depth="1" />
-
-	<!-- GCC -->
-		<project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnu-7.5" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-gnu-7.5" remote="idk" revision="master" clone-depth="1" />
-
-	<!-- Prebult Aperture Camera -->
-		<remove-project name="platform/packages/apps/Camera2" />
-		<project path="packages/apps/Aperture" name="android_packages_apps_Aperture" remote="https://github.com/LineageOS" revision="lineage-20.0" clone-depth="1" />
-	
-	<!-- Patches (Boot) -->
-		<remove-project name="platform/system/bpf" />
-		<remove-project name="android_system_core" />
-
-		<project path="system/bpf" name="aosp-system_bpf" remote="idk" revision="android-13.0.0_r32" clone-depth="1" />
-		<project path="system/core" name="arrow-android_system_core" remote="idkalt" revision="arrow-13.1" clone-depth="1" />
-
-	<!-- Add 4G+ toggle -->
-		<remove-project name="android_packages_apps_Settings" />
-		<project path="packages/apps/Settings" name="superior-android_packages_apps_Settings" remote="idk" revision="arrow-13.1" clone-depth="1" />
-
-	<!-- Patches (IMS, BT) -->
-		<remove-project name="android_frameworks_base" />
-		<remove-project name="android_frameworks_av" />
-		<remove-project name="android_frameworks_opt_net_ims" />
-		<remove-project name="android_frameworks_opt_telephony" />
-		<remove-project name="android_packages_modules_Wifi" />
-		<remove-project name="android_packages_modules_Bluetooth" />
-
-		<project path="frameworks/base" name="arrow-android_frameworks_base" remote="idk" revision="arrow-13.1" clone-depth="1" />
-		<project path="frameworks/av" name="arrow-android_frameworks_av" remote="idk" revision="arrow-13.1" clone-depth="1" />
-		<project path="frameworks/opt/net/ims" name="arrow-android_frameworks_opt_net_ims" remote="idk" revision="arrow-13.1" clone-depth="1" />
-		<project path="frameworks/opt/telephony" name="arrow-android_frameworks_opt_telephony" remote="idk" revision="arrow-13.1" clone-depth="1" />
-		<project path="packages/modules/Wifi" name="arrow-android_packages_modules_Wifi" remote="idk" revision="arrow-13.1" clone-depth="1" />
-		<project path="packages/modules/Bluetooth" name="arrow-android_packages_modules_Bluetooth" remote="idk" revision="arrow-13.1" clone-depth="1" />
-
+        <!-- Device Sauce -->
+	<project path="device/realme/RMX1941" name="android_device_realme_RMX1941" remote="salik" revision="eleven" clone-depth="1" />
+	<project path="vendor/realme/RMX1941" name="android_vendor_realme_RMX1941" remote="sakthivel" revision="eleven" clone-depth="1" />
 
 </manifest>
