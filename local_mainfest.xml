@@ -44,7 +44,7 @@
 
 	<!-- Add 4G+ toggle -->
 		<remove-project name="android_packages_apps_Settings" />
-		<project path="packages/apps/Settings" name="superior-android_packages_apps_Settings" remote="idk" revision="thirteen" clone-depth="1" />
+		<project path="packages/apps/Settings" name="octavi-android_packages_apps_Settings" remote="idk" revision="thirteen" clone-depth="1" />
 	
 	<!-- Patches (IMS, BT) -->
 		<remove-project name="android_frameworks_base" />
