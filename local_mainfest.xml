@@ -46,6 +46,10 @@
 		<project path="system/bpf" name="aosp-system_bpf" remote="idk" revision="android-13.0.0_r35" clone-depth="1" />
 		<project path="system/core" name="CrDroid-android_system_core" remote="idk" revision="13.0" clone-depth="1" />
 
+	<!-- Add 4G+ toggle -->
+		<remove-project name="crdroidandroid/android_packages_apps_Settings" />
+		<project path="packages/apps/Settings" name="CrDroid-android_packages_apps_Settings" remote="idk" revision="13.0" clone-depth="1" />
+
 
 	<!-- Patches (IMS, BT) -->
 		<remove-project name="crdroidandroid/android_frameworks_base" />
