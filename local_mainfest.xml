@@ -8,9 +8,6 @@
 		<remote name="idkalt"
 			fetch="https://github.com/IdkAnythin07-Alt" />
 
-		<remote name="salikalt"
-			fetch="https://github.com/P-SalikAlt" />
-
 		<remote name="clamg"
 			fetch="https://gitlab.com/ImSurajxD" />
 
@@ -18,8 +15,8 @@
 			fetch="https://github.com/LineageOS" />
 
 	<!-- Device Sauce -->
-    	<project path="device/realme/RMX1941" name="android_device_realme_RMX1941" remote="idk" revision="<rom>" clone-depth="1" />
-    	<project path="vendor/realme/RMX1941" name="android_vendor_realme_RMX1941" remote="idk" revision="tiramsu" clone-depth="1" />
+    		<project path="device/realme/RMX1941" name="android_device_realme_RMX1941" remote="idk" revision="<rom>" clone-depth="1" />
+    		<project path="vendor/realme/RMX1941" name="android_vendor_realme_RMX1941" remote="idk" revision="tiramsu" clone-depth="1" />
 		<project path="kernel/realme/RMX1941" name="android_kernel_realme_RMX1941" remote="idk" revision="Q-rebase" clone-depth="1" />
 
 	<!-- IMS -->
@@ -40,29 +37,28 @@
 		<project path="packages/apps/Aperture" name="android_packages_apps_Aperture" remote="los" revision="lineage-20.0" clone-depth="1" />
 	-->
 	<!-- Patches (Boot) -->
-		<remove-project name="android_system_bpf" />
 		<remove-project name="android_system_core" />
 
-		<project path="system/bpf" 					name="<rom>-<accordingly>_system_bpf" 					remote="idk" 	revision="<branch>" clone-depth="1" />
-		<project path="system/core" 				name="<rom>-<accordingly>_system_core" 					remote="idkalt"	revision="<branch>" clone-depth="1" />
+		<project path="system/core" 			name="<rom>-<accordingly>_system_core"			remote="idkalt"	revision="<branch>" clone-depth="1" />
 
 	<!-- Add 4G+ toggle -->
-		<remove-project name="android_packages_apps_Settings" />
-		<project path="packages/apps/Settings" 		name="<rom>-<accordingly>_packages_apps_Settings" 		remote="idk" 	revision="<branch>" clone-depth="1" />
+		<remove-project name="<accordingly>_packages_apps_Settings" />
+
+		<project path="packages/apps/Settings" 		name="<rom>-<accordingly>_packages_apps_Settings"	remote="idk" 	revision="<branch>" clone-depth="1" />
 	
 	<!-- Patches (IMS, BT) -->
-		<remove-project name="android_frameworks_base" />
-		<remove-project name="android_frameworks_av" />
-		<remove-project name="android_frameworks_opt_net_ims" />
-		<remove-project name="android_frameworks_opt_telephony" />
-		<remove-project name="android_packages_modules_Wifi" />
-		<remove-project name="android_packages_modules_Bluetooth" />
+		<remove-project name="<accordingly>_frameworks_base" />
+		<remove-project name="<accordingly>_frameworks_av" />
+		<remove-project name="<accordingly>_frameworks_opt_net_ims" />
+		<remove-project name="<accordingly>_frameworks_opt_telephony" />
+		<remove-project name="<accordingly>_packages_modules_Wifi" />
+		<remove-project name="<accordingly>_packages_modules_Bluetooth" />
 
-		<project path="frameworks/base" 			name="<rom>-<accordingly>_frameworks_base" 				remote="idk" 	revision="<branch>" clone-depth="1" />
-		<project path="frameworks/av" 				name="<rom>-<accordingly>_frameworks_av" 				remote="idk" 	revision="<branch>" clone-depth="1" />
-		<project path="frameworks/opt/net/ims" 		name="<rom>-<accordingly>_opt_net_ims" 					remote="idk" 	revision="<branch>" clone-depth="1" />
-		<project path="frameworks/opt/telephony" 	name="<rom>-<accordingly>_opt_telephony" 				remote="idk" 	revision="<branch>" clone-depth="1" />
-		<project path="packages/modules/Wifi" 		name="<rom>-<accordingly>_packages_modules_Wifi" 		remote="idk" 	revision="<branch>" clone-depth="1" />
-		<project path="packages/modules/Bluetooth" 	name="<rom>-<accordingly>_packages_modules_Bluetooth" 	remote="idk" 	revision="<branch>" clone-depth="1" />
+		<project path="frameworks/base" 		name="<rom>-<accordingly>_frameworks_base"		remote="idk" 	revision="<branch>" clone-depth="1" />
+		<project path="frameworks/av" 			name="<rom>-<accordingly>_frameworks_av"		remote="idk" 	revision="<branch>" clone-depth="1" />
+		<project path="frameworks/opt/net/ims" 		name="<rom>-<accordingly>_frameworks_opt_net_ims"	remote="idk" 	revision="<branch>" clone-depth="1" />
+		<project path="frameworks/opt/telephony" 	name="<rom>-<accordingly>_frameworks_opt_telephony"	remote="idk" 	revision="<branch>" clone-depth="1" />
+		<project path="packages/modules/Wifi" 		name="<rom>-<accordingly>_packages_modules_Wifi"	remote="idk" 	revision="<branch>" clone-depth="1" />
+		<project path="packages/modules/Bluetooth" 	name="<rom>-<accordingly>_packages_modules_Bluetooth"	remote="idk" 	revision="<branch>" clone-depth="1" />
 
 </manifest>
