@@ -27,6 +27,8 @@
 		<project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clamg" revision="master" clone-depth="1" />
 
 	<!-- Sepolicy -->
+		<remove-project name="android_device_mediatek_sepolicy_vndr" />
+
 		<project path="device/mediatek/sepolicy_vndr" name="ArrowOS/android_device_mediatek_sepolicy_vndr" remote="github" revision="arrow-13.1" clone-depth="1" />
 
 	<!-- GCC -->
