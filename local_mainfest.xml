@@ -54,6 +54,6 @@
 		<remove-project name="platform/frameworks/opt/net/ims" />
 
 		<project path="frameworks/av" 			name="octavi-android_frameworks_av"		remote="idk" 	revision="thirteen"	clone-depth="1" />
-		<project path="frameworks/opt/net/ims" 		name="aosp-frameworks_opt_net_ims"		remote="idk" 	revision="thirteen"	clone-depth="1" />
+		<project path="frameworks/opt/net/ims" 		name="aosp-frameworks_opt_net_ims"		remote="idk" 	revision="android-13.0.0_r43"	clone-depth="1" />
 
 </manifest>
