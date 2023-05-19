@@ -30,15 +30,9 @@
 		<project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnu-7.5" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-gnu-7.5" remote="idk" revision="master" clone-depth="1" />
 
 	<!-- WebView -->
-		<remove-project name="android_external_chromium-webview_patches" />
-		<remove-project name="android_external_chromium-webview_prebuilt_arm" />
 		<remove-project name="android_external_chromium-webview_prebuilt_arm64" />
-		<remove-project name="android_external_chromium-webview_prebuilt_x86" />
 
-		<project path="external/chromium-webview/patches"		name="CatOS-Tiramisu/android_external_chromium-webview_patches"		remote="github"	revision="main"	clone-depth="1" />
-		<project path="external/chromium-webview/prebuilt/arm"		name="CatOS-Tiramisu/android_external_chromium-webview_prebuilt_arm"	remote="github"	revision="main"	clone-depth="1" />
 		<project path="external/chromium-webview/prebuilt/arm64"	name="CatOS-Tiramisu/android_external_chromium-webview_prebuilt_arm64"	remote="github"	revision="main"	clone-depth="1" />
-		<project path="external/chromium-webview/prebuilt/x86"		name="CatOS-Tiramisu/android_external_chromium-webview_prebuilt_x86"	remote="github"	revision="main"	clone-depth="1" />
 
 	<!-- Patches (Boot) -->
 		<remove-project name="platform_system_core" />
