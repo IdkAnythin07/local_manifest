@@ -2,7 +2,7 @@
 <manifest>
 
 	<!-- Remotes -->
-    	<remote name="idk"
+    		<remote name="idk"
 			fetch="https://github.com/IdkAnythin07" />
 
 		<remote name="idkalt"
@@ -15,18 +15,17 @@
 			fetch="https://github.com/LineageOS" />
 
 	<!-- Device Sauce -->
-    	<project path="device/samsung/m20lte"									name="android_device_samsung_m20lte"								remote="idk"	revision="<rom>"		clone-depth="1" />
-    	<project path="vendor/samsung/m20lte"									name="android_vendor_samsung_m20lte"								remote="idk"	revision="lineage-20"	clone-depth="1" />
-		<project path="kernel/samsung/universal7904"							name="android_kernel_samsung_universal7904"							remote="idk"	revision="leaf-2.0"		clone-depth="1" />
-		<project path="device/samsung/universal7904-common"						name="android_device_samsung_universal7904"							remote="idk"	revision="lineage-20"	clone-depth="1" />
-		<project path="vendor/samsung/universal7904-common"						name="proprietary_vendor_samsung_universal7904-common"				remote="idk"	revision="lineage-20"	clone-depth="1" />
-		<project path="device/samsung_slsi/sepolicy"							name="android_device_samsung_slsi_sepolicy"							remote="los"	revision="lineage-20"	clone-depth="1" />
-		<project path="hardware/samsung"										name="android_hardware_samsung"										remote="los"	revision="lineage-20"	clone-depth="1" />
-		<project path="hardware/samsung/nfc"									name="android_hardware_samsung_nfc"									remote="los"	revision="lineage-20"	clone-depth="1" />
-		<project path="hardware/samsung_slsi/libbt"								name="android_hardware_samsung_slsi_libbt"							remote="los"	revision="lineage-20"	clone-depth="1" />
-		<project path="hardware/samsung_slsi/scsc_wifibt/wifi_hal"				name="android_hardware_samsung_slsi_scsc_wifibt_wifi_hal"			remote="los"	revision="lineage-20"	clone-depth="1" />
+    		<project path="device/samsung/m20lte"					name="android_device_samsung_m20lte"					remote="idk"	revision="<rom>"	clone-depth="1" />
+    		<project path="vendor/samsung/m20lte"					name="android_vendor_samsung_m20lte"					remote="idk"	revision="lineage-20"	clone-depth="1" />
+		<project path="kernel/samsung/universal7904"				name="android_kernel_samsung_universal7904"				remote="idk"	revision="leaf-2.0"	clone-depth="1" />
+		<project path="device/samsung/universal7904-common"			name="android_device_samsung_universal7904"				remote="idk"	revision="lineage-20"	clone-depth="1" />
+		<project path="vendor/samsung/universal7904-common"			name="proprietary_vendor_samsung_universal7904-common"			remote="idk"	revision="lineage-20"	clone-depth="1" />
+		<project path="device/samsung_slsi/sepolicy"				name="android_device_samsung_slsi_sepolicy"				remote="los"	revision="lineage-20"	clone-depth="1" />
+		<project path="hardware/samsung"					name="android_hardware_samsung"						remote="los"	revision="lineage-20"	clone-depth="1" />
+		<project path="hardware/samsung/nfc"					name="android_hardware_samsung_nfc"					remote="los"	revision="lineage-20"	clone-depth="1" />
+		<project path="hardware/samsung_slsi/libbt"				name="android_hardware_samsung_slsi_libbt"				remote="los"	revision="lineage-20"	clone-depth="1" />
+		<project path="hardware/samsung_slsi/scsc_wifibt/wifi_hal"		name="android_hardware_samsung_slsi_scsc_wifibt_wifi_hal"		remote="los"	revision="lineage-20"	clone-depth="1" />
 		<project path="hardware/samsung_slsi/scsc_wifibt/wpa_supplicant_lib"	name="android_hardware_samsung_slsi_scsc_wifibt_wpa_supplicant_lib"	remote="los"	revision="lineage-20"	clone-depth="1" />
-		<project path=""	name=""	remote="idk"	revision=""	clone-depth="1" />
 	<!-- Prebult Aperture Camera -->
 	<!--	<remove-project name="platform/packages/apps/Camera2" />
 		<project path="packages/apps/Aperture" name="android_packages_apps_Aperture" remote="los" revision="lineage-20.0" clone-depth="1" />
