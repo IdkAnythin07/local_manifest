@@ -15,8 +15,8 @@
 			fetch="https://github.com/LineageOS" />
 
 	<!-- Device Sauce -->
-    	<project path="device/samsung/M20LTE"									name="android_device_samsung_M20LTE"								remote="idk"	revision="<rom>"		clone-depth="1" />
-    	<project path="vendor/samsung/M20LTE"									name="android_vendor_samsung_M20LTE"								remote="idk"	revision="lineage-20"	clone-depth="1" />
+    	<project path="device/samsung/m20lte"									name="android_device_samsung_m20lte"								remote="idk"	revision="<rom>"		clone-depth="1" />
+    	<project path="vendor/samsung/m20lte"									name="android_vendor_samsung_m20lte"								remote="idk"	revision="lineage-20"	clone-depth="1" />
 		<project path="kernel/samsung/universal7904"							name="android_kernel_samsung_universal7904"							remote="idk"	revision="leaf-2.0"		clone-depth="1" />
 		<project path="device/samsung/universal7904-common"						name="android_device_samsung_universal7904"							remote="idk"	revision="lineage-20"	clone-depth="1" />
 		<project path="vendor/samsung/universal7904-common"						name="proprietary_vendor_samsung_universal7904-common"				remote="idk"	revision="lineage-20"	clone-depth="1" />
