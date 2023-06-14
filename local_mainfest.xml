@@ -2,63 +2,33 @@
 <manifest>
 
 	<!-- Remotes -->
-    		<remote name="idk"
+    	<remote name="idk"
 			fetch="https://github.com/IdkAnythin07" />
 
 		<remote name="idkalt"
 			fetch="https://github.com/IdkAnythin07-Alt" />
 
-		<remote name="clamg"
-			fetch="https://gitlab.com/ImSurajxD" />
+		<remote name="samarv"
+			fetch="https://github.com/SamarV-121" />
 
 		<remote name="los"
 			fetch="https://github.com/LineageOS" />
 
 	<!-- Device Sauce -->
-    		<project path="device/realme/RMX1941" name="android_device_realme_RMX1941" remote="idk" revision="<rom>" clone-depth="1" />
-    		<project path="vendor/realme/RMX1941" name="android_vendor_realme_RMX1941" remote="idk" revision="tiramsu" clone-depth="1" />
-		<project path="kernel/realme/RMX1941" name="android_kernel_realme_RMX1941" remote="idk" revision="Q-rebase" clone-depth="1" />
-
-	<!-- IMS -->
-		<project path="vendor/realme/RMX1941-ims" name="vendor_realme_RMX2020-ims" remote="idk" revision="thirteen-rmui1" clone-depth="1" />
-
-	<!-- Clang -->
-		<project path="prebuilts/clang/host/linux-x86/clang-r353983c" name="android_prebuilts_clang_host_linux-x86_clang-5484270" remote="idk" revision="9.0.3" clone-depth="1" />
-		<project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clamg" revision="master" clone-depth="1" />
-
-	<!-- Sepolicy -->
-		<project path="device/mediatek/sepolicy_vndr" name="ArrowOS/android_device_mediatek_sepolicy_vndr" remote="github" revision="arrow-13.1" clone-depth="1" />
-
-	<!-- GCC -->
-		<project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnu-7.5" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-gnu-7.5" remote="idk" revision="master" clone-depth="1" />
-
+    	<project path="device/samsung/M20LTE"									name="android_device_samsung_M20LTE"								remote="idk"	revision="<rom>"		clone-depth="1" />
+    	<project path="vendor/samsung/M20LTE"									name="android_vendor_samsung_M20LTE"								remote="idk"	revision="lineage-20"	clone-depth="1" />
+		<project path="kernel/samsung/universal7904"							name="android_kernel_samsung_universal7904"							remote="idk"	revision="lineage-20"	clone-depth="1" />
+		<project path="device/samsung/universal7904-common"						name="android_device_samsung_universal7904"							remote="idk"	revision="lineage-20"	clone-depth="1" />
+		<project path="vendor/samsung/universal7904-common"						name="proprietary_vendor_samsung_universal7904-common"				remote="idk"	revision="lineage-20"	clone-depth="1" />
+		<project path="device/samsung_slsi/sepolicy"							name="android_device_samsung_slsi_sepolicy"							remote="los"	revision="lineage-20"	clone-depth="1" />
+		<project path="hardware/samsung"										name="android_hardware_samsung"										remote="los"	revision="lineage-20"	clone-depth="1" />
+		<project path="hardware/samsung/nfc"									name="android_hardware_samsung_nfc"									remote="los"	revision="lineage-20"	clone-depth="1" />
+		<project path="hardware/samsung_slsi/libbt"								name="android_hardware_samsung_slsi_libbt"							remote="los"	revision="lineage-20"	clone-depth="1" />
+		<project path="hardware/samsung_slsi/scsc_wifibt/wifi_hal"				name="android_hardware_samsung_slsi_scsc_wifibt_wifi_hal"			remote="los"	revision="lineage-20"	clone-depth="1" />
+		<project path="hardware/samsung_slsi/scsc_wifibt/wpa_supplicant_lib"	name="android_hardware_samsung_slsi_scsc_wifibt_wpa_supplicant_lib"	remote="los"	revision="lineage-20"	clone-depth="1" />
+		<project path=""	name=""	remote="idk"	revision=""	clone-depth="1" />
 	<!-- Prebult Aperture Camera -->
 	<!--	<remove-project name="platform/packages/apps/Camera2" />
 		<project path="packages/apps/Aperture" name="android_packages_apps_Aperture" remote="los" revision="lineage-20.0" clone-depth="1" />
 	-->
-	<!-- Patches (Boot) -->
-		<remove-project name="android_system_core" />
-
-		<project path="system/core" 			name="<rom>-<accordingly>_system_core"			remote="idkalt"	revision="<branch>" clone-depth="1" />
-
-	<!-- Add 4G+ toggle -->
-		<remove-project name="<accordingly>_packages_apps_Settings" />
-
-		<project path="packages/apps/Settings" 		name="<rom>-<accordingly>_packages_apps_Settings"	remote="idk" 	revision="<branch>" clone-depth="1" />
-	
-	<!-- Patches (IMS, BT) -->
-		<remove-project name="<accordingly>_frameworks_base" />
-		<remove-project name="<accordingly>_frameworks_av" />
-		<remove-project name="<accordingly>_frameworks_opt_net_ims" />
-		<remove-project name="<accordingly>_frameworks_opt_telephony" />
-		<remove-project name="<accordingly>_packages_modules_Wifi" />
-		<remove-project name="<accordingly>_packages_modules_Bluetooth" />
-
-		<project path="frameworks/base" 		name="<rom>-<accordingly>_frameworks_base"		remote="idk" 	revision="<branch>" clone-depth="1" />
-		<project path="frameworks/av" 			name="<rom>-<accordingly>_frameworks_av"		remote="idk" 	revision="<branch>" clone-depth="1" />
-		<project path="frameworks/opt/net/ims" 		name="<rom>-<accordingly>_frameworks_opt_net_ims"	remote="idk" 	revision="<branch>" clone-depth="1" />
-		<project path="frameworks/opt/telephony" 	name="<rom>-<accordingly>_frameworks_opt_telephony"	remote="idk" 	revision="<branch>" clone-depth="1" />
-		<project path="packages/modules/Wifi" 		name="<rom>-<accordingly>_packages_modules_Wifi"	remote="idk" 	revision="<branch>" clone-depth="1" />
-		<project path="packages/modules/Bluetooth" 	name="<rom>-<accordingly>_packages_modules_Bluetooth"	remote="idk" 	revision="<branch>" clone-depth="1" />
-
 </manifest>
