@@ -2,29 +2,29 @@
 <manifest>
 
 <!-- Remotes -->
-	<remote name="Idk"	fetch="https://github.com/IdkAnythin07" />
-	<remote name="Vendor" 	fetch="https://github.com/TheMuppets" />
-	<remote name="Lineage" 	fetch="https://github.com/LineageOS" />
-	<remote name="AOSPA" 	fetch="https://github.com/AOSPA" />
-	<remote name="Viper4" 	fetch="https://github.com/TogoFire" />
+	<remote name="Idk" fetch="https://github.com/IdkAnythin07" />
+	<remote name="Vendor" fetch="https://github.com/TheMuppets" />
+	<remote name="Lineage" fetch="https://github.com/LineageOS" />
+	<remote name="AOSPA" fetch="https://github.com/AOSPA" />
+	<remote name="Viper4" fetch="https://github.com/TogoFire" />
 
 <!-- Device-Tree && Device-Common -->
-	<project path="device/motorola/devon"		name="device_motorola_devon"				remote="Idk" 	revision="14-pos"  />
-	<project path="device/motorola/sm6225-common"	name="device_motorola_sm6225-common"			remote="Idk" 	revision="lineage-21"  />
+	<project path="device/motorola/devon" name="device_motorola_devon" remote="Idk" revision="14-pos"  />
+	<project path="device/motorola/sm6225-common" name="device_motorola_sm6225-common" remote="Idk" revision="lineage-21"  />
 
 <!-- Vendor && Vendor-Common -->
-	<project path="vendor/motorola/devon"		name="proprietary_vendor_motorola_devon"		remote="Vendor"	revision="lineage-21"  />
-	<project path="vendor/motorola/sm6225-common"	name="proprietary_vendor_motorola_sm6225-common"	remote="Vendor"	revision="lineage-21"  />
+	<project path="vendor/motorola/devon" name="proprietary_vendor_motorola_devon" remote="Vendor" revision="lineage-21"  />
+	<project path="vendor/motorola/sm6225-common" name="proprietary_vendor_motorola_sm6225-common" remote="Vendor" revision="lineage-21"  />
 
 <!-- Kernel && Dependencies -->
-	<project path="kernel/motorola/sm6225"		name="kernel_motorola_sm6225"				remote="Idk"	revision="master"  />
-	<project path="system/qcom"			name="android_system_qcom"				remote="AOSPA"	revision="uvite"  />
-	<project path="hardware/motorola"		name="android_hardware_motorola"			remote="Lineage" revision="lineage-21"  />
-	<project path="hardware/samsung/nfc"		name="android_hardware_samsung_nfc"			remote="Lineage" revision="lineage-21"  />
+	<project path="kernel/motorola/sm6225" name="kernel_motorola_sm6225" remote="Idk" revision="master"  />
+	<project path="system/qcom" name="android_system_qcom" remote="AOSPA" revision="uvite"  />
+	<project path="hardware/motorola" name="android_hardware_motorola" remote="Lineage" revision="lineage-21"  />
+	<project path="hardware/samsung/nfc" name="android_hardware_samsung_nfc" remote="Lineage" revision="lineage-21"  />
 
 <!-- ViPER4AndroidFX -->
-	<project path="packages/apps/ViPER4AndroidFX"	name="packages_apps_ViPER4AndroidFX"			remote="Viper4"	revision="v4a"  />
+	<project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="Viper4" revision="v4a"  />
 	<remove-project name="system_sepolicy"/>
-	<project path="system/sepolicy"			name="system_sepolicy"					remote="Idk"	revision="fourteen"  />
+	<project path="system/sepolicy" name="system_sepolicy" remote="Idk" revision="fourteen"  />
 
 </manifest>
