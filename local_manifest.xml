@@ -20,7 +20,6 @@
 	<project path="kernel/motorola/sm6225" name="kernel_motorola_sm6225" remote="Idk" revision="master"  />
 	<project path="system/qcom" name="android_system_qcom" remote="AOSPA" revision="uvite"  />
 	<project path="hardware/motorola" name="android_hardware_motorola" remote="Lineage" revision="lineage-21"  />
-	<project path="hardware/samsung/nfc" name="android_hardware_samsung_nfc" remote="Lineage" revision="lineage-21"  />
 
 <!-- ViPER4AndroidFX -->
 	<project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="Viper4" revision="v4a"  />
