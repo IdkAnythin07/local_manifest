@@ -17,7 +17,7 @@
 	<project path="vendor/motorola/sm6225-common" name="proprietary_vendor_motorola_sm6225-common" remote="Vendor" revision="lineage-21"  />
 
 <!-- Kernel && Dependencies -->
-	<project path="kernel/motorola/sm6225" name="kernel_motorola_sm6225" remote="Idk" revision="master"  />
+	<project path="kernel/motorola/sm6225" name="kernel_motorola_sm6225" remote="Idk" revision="main"  />
 	<project path="system/qcom" name="android_system_qcom" remote="AOSPA" revision="uvite"  />
 	<project path="hardware/motorola" name="android_hardware_motorola" remote="Lineage" revision="lineage-21"  />
 
